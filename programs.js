@@ -1,0 +1,28 @@
+// Program highlights from our corporate years (source: Ira's LinkedIn posts and Damar's CV). One voice: "we".
+// video: YouTube id + start second. logo: file in logos/. photo: event photo shown on top, logo becomes a badge.
+window.PROGRAMS = [
+  { key: "idcamp", logo: "indosat.svg", photo: "photos/programs/idcamp.jpg", year: "2020–2025",
+    stat: "90,000+", statId: "90.000+",
+    en: { name: "IDCamp", where: "Indosat Ooredoo Hutchison", unit: "participants", note: "38+ provinces and 490+ cities, plus roadshows to Pekanbaru and Purwokerto and a digital summit in Surabaya." },
+    id: { name: "IDCamp", where: "Indosat Ooredoo Hutchison", unit: "peserta", note: "38+ provinsi dan 490+ kota, plus roadshow ke Pekanbaru dan Purwokerto serta digital summit di Surabaya." } },
+  { key: "arcade", logo: "google.avif", photo: "photos/programs/arcade.jpg", year: "2025",
+    stat: "16,900+", statId: "16.900+",
+    en: { name: "Google Cloud Arcade Facilitator", where: "Google Cloud", unit: "participants in 2 months", note: "300 facilitators. Badge completion hit 2.5× the year before, and we cut onboarding from 24 hours to 2." },
+    id: { name: "Google Cloud Arcade Facilitator", where: "Google Cloud", unit: "peserta dalam 2 bulan", note: "300 fasilitator. Penyelesaian badge 2,5× tahun sebelumnya, dan onboarding kami pangkas dari 24 jam jadi 2 jam." } },
+  { key: "unity", logo: "unity.svg", photo: "photos/programs/unity.jpg", year: "2025",
+    stat: "3", statId: "3",
+    en: { name: "Google Play × Unity Game Developer Training", where: "Google Play · Unity · Kemenekraf", unit: "city meetups", note: "A national game-dev program with community meetups in Jakarta, Malang, and Bandung." },
+    id: { name: "Google Play × Unity Game Developer Training", where: "Google Play · Unity · Kemenekraf", unit: "kota meetup", note: "Program game developer nasional dengan meetup komunitas di Jakarta, Malang, dan Bandung." } },
+  { key: "dbs", logo: "dbs-foundation.png", photo: "photos/programs/dbs.jpg", year: "2023–2025",
+    stat: "0 → 1", statId: "0 → 1",
+    en: { name: "Coding Camp powered by DBS Foundation", where: "DBS Foundation", unit: "built from scratch", note: "We designed the program from zero and ran it through to the graduation event two years later." },
+    id: { name: "Coding Camp powered by DBS Foundation", where: "DBS Foundation", unit: "dibangun dari nol", note: "Kami merancang programnya dari nol dan menjalankannya sampai acara wisuda dua tahun kemudian." } },
+  { key: "bdd", logo: "baparekraf.avif", photo: "photos/programs/bdd.jpg", year: "2025",
+    stat: "1,000+", statId: "1.000+",
+    en: { name: "BEKRAF Developer Day", where: "Kemenekraf · Bandung", unit: "developers", note: "We moderated the industry session with DBS, Lintasarta, and IBM." },
+    id: { name: "BEKRAF Developer Day", where: "Kemenekraf · Bandung", unit: "developer", note: "Kami memoderatori sesi industri bersama DBS, Lintasarta, dan IBM." } },
+  { key: "ddc", logo: "dicoding.png", photo: "photos/programs/ddc.jpg", year: "2023",
+    stat: "1,000+", statId: "1.000+",
+    en: { name: "Dicoding Developer Conference", where: "Dicoding", unit: "developers", note: "Dicoding's first large standalone offline event, run end to end." },
+    id: { name: "Dicoding Developer Conference", where: "Dicoding", unit: "developer", note: "Acara offline mandiri berskala besar pertama Dicoding, kami pegang dari awal sampai akhir." } },
+];
